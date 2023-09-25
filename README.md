@@ -1,4 +1,4 @@
-# **Praktikum 1 Jaringan Komputer**
+# **Tugas 1 Pemrograman Web**
 <div align=justify>
 
 Berikut adalah Repository untuk pengerjaan tugas 1 mata kuliah Pemrograman Web (Membuat _website_ portofolio / CV dengan basic HTML dan CSS).
