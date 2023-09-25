@@ -1,16 +1,47 @@
 #hero {
-    /* background-image: url(/img/); */
     background-size: cover;
     background-position: center;
-    padding: 300px 0; /* Padding yang lebih kecil */
+    padding: 300px 0;
     text-align: left;
 }
 
 @media (max-width: 767px) {
     #hero {
-        padding: 150px 0; /* Padding yang lebih kecil untuk layar seluler */
+        background-position: left;
+        padding: 30px ;
+        text-align: center; 
+    }
+    #hero h1 {
+        font-size: 28px;
+    }
+    #hero p {
+        font-size: 14px;
     }
 }
+
+/* Tambahkan CSS tambahan jika dibutuhkan */
+@media (max-width: 767px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table {
+      width: 100%;
+    }
+  
+    .table td {
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  /* CSS tambahan untuk tampilan desktop */
+@media (min-width: 768px) {
+    .table td {
+      display: table-cell;
+      text-align: left;
+    }
+  }
   
 .card {
     display: flex;
